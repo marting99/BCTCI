@@ -64,7 +64,7 @@ class DynamicArray{
             throw new Error("Array is emtpy cannot perform a pop on an emtpy array")
         }
         this.len--;
-        if(this.len . this.capacity < 0.25 && this.capacity > 10){
+        if(this.len / this.capacity < 0.25 && this.capacity > 10){
             this.resize(Math.floor(this.capacity/2));
         }
     }
