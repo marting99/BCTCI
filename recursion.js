@@ -36,7 +36,7 @@ Notes:
 - helper(i+1,arr) 
 
 T: O(n) where n is the length of the input array
-S:O(h) call stack size
+S:O(h) depth of each subarray
 */
 function nestedArraySum(array){
     let result = 0;
