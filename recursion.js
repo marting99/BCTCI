@@ -13,6 +13,12 @@ Notes:
 T: O(n) where n is the length of the input array
 S:O(h) depth of each subarray
 */
+
+/**
+ * 
+ * @param {(number | Array)[]} array 
+ * @returns {number}
+ */
 function nestedArraySum(array){
     let result = 0;
     const helper = (i,arr)=>{
