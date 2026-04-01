@@ -7,14 +7,11 @@
  * T: O(n)
  * S:O(n)
  * s = "split by space" , c = ' '
- *            ^
- * tmp = []
- * ["split"]
  */
 /**
  * @param {string} s
  * @param {string} c
- * @return {string []}
+ * @return {string}
  */
 function mySplit(s,c){
     if(s.length === 0)return [];
