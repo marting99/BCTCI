@@ -1,3 +1,4 @@
+// problem 25.1
 const SIZE = 10;
 class DynamicArray{
     constructor(){
